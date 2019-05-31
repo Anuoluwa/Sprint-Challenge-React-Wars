@@ -21,7 +21,6 @@ export class StarWars extends Component {
             edited
 
         } = this.props.starWarsChar
-        console.log(this.props.starWarsChar);
 
         return (
             <div className="card">
@@ -33,7 +32,6 @@ export class StarWars extends Component {
                     <li> <em>Vehicles:</em> <strong>{vehicles}</strong></li>
                     <li> <em>Star Ships:</em> <strong>{starships}</strong></li>
                     <li> <em>Eye Color:</em> <strong>{eye_color}</strong></li>
-                    <li> <em>Films:</em> <strong>{films}</strong></li>
                     <li> <em>Home World:</em> <strong>{homeworld}</strong></li>
                     <li> <em>Skin Color:</em> <strong>{skin_color}</strong></li>
                     <li> <em>Hair Color:</em> <strong>{hair_color}</strong></li>
