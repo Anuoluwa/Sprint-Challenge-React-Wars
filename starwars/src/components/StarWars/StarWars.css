@@ -12,5 +12,17 @@ html, body {
 }
 
 .card {
-    background: gray;
+    background:whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 30px;
+    line-height: 30px;
+    padding: 2rem 0 0 0;
+    font-size: 1.5rem;
+
+}
+
+.card em {
+    color: gray;
+    font-size: 1rem;
 }
